@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>تسجيل الدخول</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="login-wrapper">
+    <div class="login-container">
+      <h2>chat with gamerAi</h2>
+      
+      <div class="input-group">
+        <label for="username">الاسم</label>
+        <input id="username" type="text" placeholder="Your name">
+      </div>
+
+      <div class="input-group">
+        <label for="language">اللغة</label>
+        <select id="language">
+          <option value="en">English</option>
+          <option value="ar">العربية</option>
+        </select>
+      </div>
+
+      <button onclick="login()">تسجيل الدخول</button>
+     
+    </div>
+  </div>
+
+  <script type="module" src="login.js"></script>
+</body>
+</html>
